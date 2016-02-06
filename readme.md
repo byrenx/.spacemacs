@@ -1,0 +1,4 @@
+Personal .spacemacs configuration
+=================================
+
+
