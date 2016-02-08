@@ -254,6 +254,10 @@ layers configuration. You are free to put any user code."
   (global-linum-mode) ; Show line numbers by default
   (global-flycheck-mode) ; enable syntax checking by default
   (global-company-mode)
+
+  ;; add editor config
+  (add-to-list 'load-path "~/.emacs.d.bak/lisp")
+  (load "editorconfig")
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
